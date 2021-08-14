@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (C) 2021 Bharat Bala <bharat.bala@opskins.com>
+# Copyright (C) 2021 Bharat Bala <bbharat95@gmail.com>
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without
 # modifications, as long as this notice is preserved.
