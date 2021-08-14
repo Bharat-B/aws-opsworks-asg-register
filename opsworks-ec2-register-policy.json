@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AWSOpsWorksEC2AutoRegister",
+            "Effect": "Allow",
+            "Action": [
+                "opsworks:DescribeInstances",
+                "opsworks:DescribeStackProvisioningParameters",
+                "opsworks:DescribeStacks",
+                "opsworks:RegisterInstance",
+                "opsworks:GetHostnameSuggestion",
+                "opsworks:AssignInstance",
+                "opsworks:DeregisterInstance",
+                "ec2:DescribeInstances",
+                "ec2:DescribeTags",
+                "ec2:CreateTags"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
